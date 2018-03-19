@@ -1,0 +1,7 @@
+[Unit]
+Description=Sound board service
+
+[Service]
+ExecStart=/home/pi/Soundboard/soundbox.sh
+[Install]
+WantedBy=multi-user.target
